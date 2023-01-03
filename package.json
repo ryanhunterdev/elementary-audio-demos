@@ -1,0 +1,18 @@
+{
+  "name": "elementary-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "polySynth": "nodemon --exec elementary polySynth.js",
+    "sampler": "nodemon --exec elementary midiSampler.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elemaudio/core": "^1.0.8",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
